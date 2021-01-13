@@ -5,7 +5,7 @@ void FillRand(int arr[][5], const int m, const int n);
 void Print(int arr[], const int n);
 void Print(int arr[][5], const int m, const int n);
 void Sort(int arr[], const int n);
-void Sort(int arr[ROWS][COLS], const int m, const int n);
+void Sort(int arr[], const int m, const int n);
 int Summ(int arr[], const int n);
 double Avg(int arr[], const int n);
 double Avg(double arr[], const int n);
@@ -43,7 +43,6 @@ void main()
 	FillRand(i_arr2, ROWS, COLS);
 	Print(i_arr2, ROWS, COLS);
 	cout << delimiter;
-	Sort(i_arr2, ROWS, COLS);
 	Print(i_arr2, ROWS, COLS);
 	}
 	void FillRand(int arr[], const int n)//рандом
